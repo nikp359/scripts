@@ -22,7 +22,7 @@ def thread_start(thread_name):
     thread_name.start()
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.bind(('127.0.0.1', 2222))
+s.bind(('0.0.0.0', 2222))
 s.listen(10)
 
 
