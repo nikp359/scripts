@@ -1,3 +1,4 @@
+set term=screen-256color
 colorscheme badwolf
 syntax enable
 set tabstop=4
